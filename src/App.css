@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  width: auto;
+  height: 150px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  box-shadow: 1px 2px grey;
+}
+
+.cardBottom {
+  position: absolute;
+  bottom: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  color: dimgray;
+}
+
+.giftCard {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  color: dimgray;
+}
+
+.tagLabel {
+  border: 1px solid #3388ff;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  margin-bottom: "10px";
+  width: fit-content;
+  color: #3388ff;
+  font-weight: 700;
+}
+
+.money {
+  font-weight: 700;
+  font-size: 15px;
+  color: #3388ff;
+}
+
+.menuBar {
+  cursor: pointer;
+  color: gray;
+}
+
+.menuBar:hover {
+  color: black;
+}
+.menuBar:focus {
+  color: black;
+}
+
+.menuBar:active {
+  color: black;
 }
